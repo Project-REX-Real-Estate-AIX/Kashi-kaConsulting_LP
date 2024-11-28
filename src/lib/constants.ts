@@ -9,7 +9,9 @@ export const NAVIGATION_LINKS = [
   { href: "/contact", label: "Contact" }
 ]
 
-export const FEATURES = [
+import { ServiceCardProps } from "@/components/ServiceCard"
+
+export const FEATURES: ServiceCardProps[] = [
   {
     icon: "PieChart",
     title: "現行業務の可視化",

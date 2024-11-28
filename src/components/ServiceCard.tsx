@@ -9,7 +9,7 @@ const icons = {
   Flag
 }
 
-interface ServiceCardProps {
+export interface ServiceCardProps {
   icon: keyof typeof icons
   title: string
   description: string
